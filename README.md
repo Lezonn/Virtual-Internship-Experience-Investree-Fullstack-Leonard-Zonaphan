@@ -10,24 +10,31 @@ A website to view articles made by anyone. To create an article we need to creat
   <strong>Setup the project</strong>
   * Clone project to any folder
   * Open git bash / command prompt in your project folder
-  * Write command below <br />
-    composer install <br />
-    copy .env.example .env <br /><br />
+  * Install project dependencies from composer
+    ```
+    composer install
+    ```
+  * Copy .env file template
+    ```
+    copy .env.example .env
+    ```
   * Open project in visual studio code
   * Open .env file, update database configuration like below<br />
-    DB_DATABASE=article-ui<br />
-    DB_USERNAME=root<br />
-    DB_PASSWORD= <br /><br />
-  * Write command below in visual studio code terminal / command prompt / git bash <br /><br />
-    Generate APP_KEY in .env
+    ```
+    DB_DATABASE=article-ui
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+    Write command below in visual studio code terminal / command prompt / git bash at your project folder again<br />
+  * Generate APP_KEY in .env
     ```
     php artisan key:generate
     ```
-    Create database table and dummy data
+  * Create database table and dummy data
     ```
     php artisan migrate:fresh --seed 
     ```
-    Run the application
+  * Run the application
     ```
     php artisan serve
     ```
@@ -35,7 +42,7 @@ A website to view articles made by anyone. To create an article we need to creat
     (http://localhost:8000/)
     
   <strong>Run unit test</strong>
-  * To run unit test you need to write command in visual studio code teriman / command prompt / git bash at your project path <br />
+  * To run unit test you need to write command in visual studio code teriman / command prompt / git bash at your project folder <br />
     ```
     vendor/bin/phpunit
     ```
