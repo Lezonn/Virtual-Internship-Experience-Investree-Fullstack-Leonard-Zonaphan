@@ -42,7 +42,7 @@ A website to view articles made by anyone. To create an article we need to creat
     (http://localhost:8000/)
     
   <strong>Run unit test</strong>
-  * To run unit test you need to write command in visual studio code teriman / command prompt / git bash at your project folder <br />
+  * To run unit test you need to write command in visual studio code terminal / command prompt / git bash at your project folder <br />
     ```
     vendor/bin/phpunit
     ```
