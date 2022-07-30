@@ -21,7 +21,7 @@ A restful API with jwt authentication using laravel passport. this restful API a
   * Open project in visual studio code
   * Open .env file, update database configuration like below<br />
     ```
-    DB_DATABASE=article-ui
+    DB_DATABASE=article-api
     DB_USERNAME=root
     DB_PASSWORD=
     ```
@@ -46,7 +46,7 @@ A restful API with jwt authentication using laravel passport. this restful API a
     (http://localhost:8000/)
     
   <strong>Run unit test</strong>
-  * To run unit test you need to write command in visual studio code teriman / command prompt / git bash at your project folder <br />
+  * To run unit test you need to write command in visual studio code terminal / command prompt / git bash at your project folder <br />
     ```
     vendor/bin/phpunit
     ```
